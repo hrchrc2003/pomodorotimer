@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポモドーロタイマー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ポモドーロタイマー</h1>
+        <div class="timer-container">
+            <div class="mode-selector">
+                <button id="work-mode-btn" class="mode-btn active">作業</button>
+                <button id="break-mode-btn" class="mode-btn">休憩</button>
+            </div>
+            <div id="timer-display">25:00</div>
+            <div class="buttons">
+                <button id="start-btn">開始</button>
+                <button id="stop-btn">停止</button>
+                <button id="reset-btn">リセット</button>
+            </div>
+        </div>
+        <div class="settings">
+            <div class="setting-item">
+                <label for="work-time">作業時間（分）:</label>
+                <input type="number" id="work-time" value="25">
+            </div>
+            <div class="setting-item">
+                <label for="break-time">休憩時間（分）:</label>
+                <input type="number" id="break-time" value="5">
+            </div>
+            <div class="setting-item font-selector">
+                <label for="font-select">フォント:</label>
+                <select id="font-select">
+                    <option value="meiryo">Meiryo</option>
+                    <option value="mincho">明朝体</option>
+                    <option value="gothic">ゴシック体</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\kato\\Documents\\開発\\ポモドーロタイマー"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "echo 'No build command needed for static site'"
+base = "C:\\Users\\kato\\Documents\\開発\\ポモドーロタイマー"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
